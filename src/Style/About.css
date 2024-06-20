@@ -1,0 +1,414 @@
+.all-padding {
+  padding: 0 20px;
+}
+
+.nature-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 45px;
+}
+.delicious {
+  max-width: 612px;
+  min-width: 200px;
+  width: 100%;
+}
+.deliciouss {
+  max-width: 663px;
+  min-width: 200px;
+  height: 620px;
+  width: 100%;
+  height: auto;
+}
+.delicious-p {
+  /* Regular 400 */
+  font-family: Poppins-Regular;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  text-align: justify;
+  color: black;
+}
+.frutzoo {
+  /* Light 700 */
+  font-family: Poppins-Bold;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: justify;
+}
+.promoting {
+  padding: 10px 0 0 0;
+}
+.Our-Mission {
+  max-width: 1096px;
+  min-width: 200px;
+  width: 100%;
+
+  margin: 0 auto;
+}
+.mission-flex {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+  gap: 50px;
+  justify-items: center;
+}
+.mission-left {
+  background-color: #2a5500;
+
+  max-width: 523px;
+  min-width: 200px;
+  width: 100%;
+  height: 377px;
+  border-top-left-radius: 150px;
+  border-bottom-right-radius: 150px;
+}
+.natur-tpadding{
+  padding: 100px 0 0 0;
+}
+
+.mission-right {
+  background-color: #2a5500;
+  border-radius: 150px, 0px, 150px, 0px;
+  max-width: 523px;
+  min-width: 200px;
+  width: 100%;
+  border-top-right-radius: 150px;
+  border-bottom-left-radius: 150px;
+}
+.mission {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 40px 0 32.81px 0; */
+}
+
+.text-overlay {
+  position: absolute;
+  z-index: 0;
+  top: 41%;
+}
+.text-overlay h1 {
+  color: black;
+}
+.mission img {
+  object-fit: contain;
+  margin: 40px 0 32.8px 0;
+  position: relative;
+}
+.our-mission {
+  font-size: 24px;
+  /* Light 600 */
+  font-family: Poppins-SemiBold;
+  font-weight: 600;
+ 
+}
+.mission-left-p {
+  max-width: 466px;
+  min-width: 200px;
+  width: 100%;
+  margin: 0 auto;
+}
+.p-contain {
+  /* Regular 400 */
+  font-family: Poppins-Regular;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  color: white;
+  padding: 0 28px;
+}
+
+.our-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 58px;
+}
+.valuees Image {
+  max-width: 274px;
+  min-width: 100px;
+  width: 100%;
+}
+.valuees-p {
+  max-width: 984px;
+  min-width: 200px;
+  width: 100%;
+  text-align: justify;
+}
+.our {
+  /* Light 700 */
+  font-family: Poppins-Bold;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: justified;
+  color: black;
+}
+.transparency {
+  /* Light 500 */
+  font-family: Poppins-Medium;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: justified;
+}
+.honesty {
+  /* Regular 400 */
+  font-family: Poppins-Regular;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: justified;
+  color: black;
+}
+.innovation-left {
+  max-width: 984px;
+  min-width: 200px;
+  width: 100%;
+  text-align: justify;
+  /* order: 1; */
+}
+.innovation-right Image {
+  max-width: 272px;
+  min-width: 100px;
+  width: 100%;
+}
+.innovation-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 58px;
+  padding: 50px 0;
+}
+.innovation-head {
+  /* Light 500 */
+  font-family: Poppins-Medium;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: justified;
+}
+.innovation-para {
+  font-family: Poppins-Regular;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: justified;
+  color: black;
+}
+.Community-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 58px;
+  padding: 0 0 100px 0;
+}
+.community-img Image {
+  max-width: 274px;
+  min-width: 100px;
+  width: 100%;
+}
+.believe {
+  /* Light 700 */
+  font-family: Poppins-Bold;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: justified;
+  color: black;
+}
+.power {
+  /* Regular 400 */
+  font-family: Poppins-Regular;
+
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: justified;
+  color: black;
+}
+.community-contain {
+  max-width: 984px;
+  min-width: 200px;
+  width: 100%;
+  text-align: justify;
+}
+
+.innovation-p {
+  font-family: Poppins-Bold;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: justified;
+  color: black;
+}
+
+@media screen and (max-width: 1024px) {
+  .nature-flex {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0px;
+  }
+  .natur-tpadding{
+    padding: 50px 0 0 0;
+  }
+  .delicious {
+    order: 2;
+    width: 100%;
+    max-width: 984px;
+    min-width: 200px;
+    height: auto;
+    padding: 10px 0 0 0;
+  }
+  .deliciouss {
+    max-width: 984px;
+    min-width: 200px;
+  }
+  .mission-flex {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .mission-right {
+    height: 377px;
+  }
+  .mission-flex {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .mission-bg {
+    max-width: 206px;
+    min-width: 100px;
+    width: 100%;
+  }
+  .natur-tpadding{
+    padding: 50px 0 0 0;
+  }
+  .mission-left {
+    height: 463px;
+    max-width: 260px;
+    min-width: 100px;
+  }
+  .p-contain {
+    font-family: Poppins-Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+  }
+  .mission-right {
+    height: 496px;
+    max-width: 260px;
+    min-width: 200px;
+  }
+  .values-img {
+    max-width: 200px;
+    min-width: 100px;
+    height: 195.67px;
+  }
+  .our-flex {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0px;
+    /* padding: 10px 0 0 0; */
+  }
+  .innovation-flex {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0px;
+  }
+
+  .innovation-img {
+    max-width: 200px;
+    min-width: 100px;
+    height: 195.67px;
+  }
+  /* .valuees-p {
+    padding: 10.33px 0 0 0;
+  } */
+  .Community-flex {
+    gap: 0px;
+
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .comm-img {
+    max-width: 200px;
+    height: 195px;
+  }
+  .community-contain {
+    padding: 10.38px 0 0 0;
+  }
+  .innovation-para {
+    font-family: Poppins-Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: justified;
+    color: black;
+  }
+  .honesty {
+    font-family: Poppins-Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: justified;
+  }
+  .our {
+    font-family: Poppins-Bold;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: justified;
+  }
+  .innovation-p {
+    font-family: Poppins-Bold;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: justified;
+  }
+  .believe {
+    font-family: Poppins-Bold;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: justified;
+    color: black;
+  }
+  .innovation-left {
+    order: 1;
+  }
+  .power {
+    font-family: Poppins-Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: justified;
+  }
+  .delicious-p {
+    /* Regular 400 */
+    font-family: Poppins-Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: justified;
+  }
+
+  .frutzoo {
+    font-family: Poppins-Bold;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: justified;
+  }
+  .our-mission{
+    font-size: 18px;
+  }
+}
