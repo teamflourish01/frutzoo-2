@@ -108,7 +108,7 @@
 .button-paddings{
   padding: 34px 0 0 0;
 }
-.contact-button {
+.contact-buttons {
   background-color: #ffa626;
   max-width: 189px;
   min-width: 100px;
@@ -127,7 +127,7 @@
   z-index: 0; /* Add this */
 }
 
-.contact-button::before {
+.contact-buttons::before {
   content: '';
   position: absolute;
   top: 0;
@@ -141,12 +141,12 @@
 }
 
 
-.contact-button:hover::before {
+.contact-buttons:hover::before {
   right: 0;
   opacity: 1;
 }
 
-.contact-button:hover {
+.contact-buttons:hover {
   color: #fff;
 }
 
@@ -172,6 +172,12 @@ font-family: Poppins-Regular;
 }
 
 @media screen and (max-width: 1024px) {
+
+  .contact-buttons{
+    max-width: 744px;
+    min-width: 200px;
+    width: 100%;
+  }
   .contact-flex {
     justify-content: center;
     flex-wrap: wrap;
@@ -241,7 +247,7 @@ font-family: Poppins-Regular;
     padding: 0 4px;
   }
   .button-paddings{
-    padding: 0px;
+    padding: 0px 4px;
   }
 }
 
